@@ -1,4 +1,5 @@
 "use client";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
@@ -33,7 +34,7 @@ export default function PortfolioSite() {
       <header className="space-y-4">
         <h1 className="text-4xl font-bold text-blue-900">Yongxu Wang</h1>
         <p className="text-lg text-muted-foreground max-w-2xl">
-          Aspiring Data Scientist with dual Master's degrees from Johns Hopkins (Applied Mathematics & Statistics) and Columbia University (Statistics). I love using data to solve real-world problems in finance, healthcare, and beyond.
+          Aspiring Data Scientist with dual Master&apos;s degrees from Johns Hopkins (Applied Mathematics & Statistics) and Columbia University (Statistics). I love using data to solve real-world problems in finance, healthcare, and beyond.
         </p>
         <div className="space-y-2">
           <h2 className="text-xl font-semibold">🔍 Interests</h2>
